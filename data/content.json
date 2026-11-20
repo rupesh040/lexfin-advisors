@@ -1,0 +1,603 @@
+{
+  "LexFin": {
+    "templateComponents": {
+      "template-1": {
+        "shared": {
+          "Header": "LexFinHeader1",
+          "Footer": "LexFinFooter1"
+        },
+        "pages": {
+          "home": {
+            "components": [
+              {
+                "key": "Banner",
+                "component": "LexFinBanner1"
+              },
+              {
+                "key": "About",
+                "component": "LexFinAbout1"
+              },
+              {
+                "key": "Services",
+                "component": "LexFinServices1"
+              },
+              {
+                "key": "Team",
+                "component": "LexFinTeam1"
+              },
+              {
+                "key": "Testimonial",
+                "component": "LexFinTestimonial1"
+              },
+              {
+                "key": "CompanyStatistics",
+                "component": "LexFinStats1"
+              },
+              {
+                "key": "FAQ",
+                "component": "LexFinFAQ1"
+              },
+              {
+                "key": "Contact",
+                "component": "LexFinContact1"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "sections": {
+      "Header": {
+        "variants": {
+          "LexFinHeader1": {
+            "logo": "/logo.webp",
+            "links": [
+              {
+                "name": "Home",
+                "href": "#home",
+                "active": true
+              },
+              {
+                "name": "About",
+                "href": "#about"
+              },
+              {
+                "name": "Service",
+                "href": "#service"
+              },
+              {
+                "name": "Team",
+                "href": "#team"
+              },
+              {
+                "name": "Testimonial",
+                "href": "#testimonial"
+              },
+              {
+                "name": "FAQ",
+                "href": "#faq"
+              }
+            ],
+            "button": "Contact us",
+            "contact": {
+              "phone": "+1 (800) 555-LEXFIN",
+              "email": "contact@lexfinadvisors.com",
+              "tagline": "Premier Law & Finance Counsel",
+              "description": "Trusted advisory across corporate law, capital structuring, compliance, and wealth governance."
+            }
+          }
+        }
+      },
+      "Banner": {
+        "variants": {
+          "LexFinBanner1": {
+            "tagline": {
+              "icon": "Scale",
+              "text": "JUSTICE & COMPLIANCE TOGETHER"
+            },
+            "heading": {
+              "line1White": "YOUR",
+              "line1Gold": "LEGAL &",
+              "line2Gold": "FINANCIAL",
+              "line2White": "CASE",
+              "line3White": "DESERVES THE",
+              "line4White": "BEST"
+            },
+            "avatars": [
+              {
+                "name": "Partner Attorney",
+                "image": "/avatars/avatar1.webp"
+              },
+              {
+                "name": "Managing Counsel",
+                "image": "/avatars/avatar2.webp"
+              },
+              {
+                "name": "Senior Advisor",
+                "image": "/avatars/avatar3.webp"
+              }
+            ],
+            "description": "Your case deserves dedicated attention, experienced legal guidance, and a strategic approach tailored to your unique needs we stand beside.",
+            "appointmentCta": {
+              "line1": "Get a Free Estimate or Schedule an",
+              "line2": "Appointment With Us",
+              "href": "#contact"
+            },
+            "mainPersonImage": "/hero-person.webp",
+            "backgroundImage": "/hero-bg.webp",
+            "stats": [
+              {
+                "value": "$4.8B+",
+                "label": "Transactions Advised"
+              },
+              {
+                "value": "99.4%",
+                "label": "Regulatory Clearance"
+              },
+              {
+                "value": "28+",
+                "label": "Global Jurisdictions"
+              },
+              {
+                "value": "35 Yrs",
+                "label": "Combined Leadership"
+              }
+            ]
+          }
+        }
+      },
+      "About": {
+        "variants": {
+          "LexFinAbout1": {
+            "tagline": "ABOUT US",
+            "heading": {
+              "line1": "Protecting People for",
+              "line2Prefix": "Over",
+              "line2Highlight": "Two Decades"
+            },
+            "founder": {
+              "name": "Ernesto Wade",
+              "role": "CEO & Founder",
+              "image": "/rajiv-mehra.webp",
+              "alt": "CEO & Founder Ernesto Wade"
+            },
+            "leadParagraph": "Our award-winning legal team has an impressive track record and extensive experience working on cases like yours. Our lawyers specialize in the practice areas that affect everyday.",
+            "secondaryParagraph": "Our firm also can help if you're going through a divorce, child custody or child support proceedings, or have been charged with a crime. We offer a free consultation so that you can evaluate your options with no financial risk.",
+            "badgesImage": "/about-badges.jpg",
+            "badges": [
+              {
+                "title": "Law Council",
+                "subtitle": "LC Partner",
+                "image": "/about-badge-council.webp"
+              },
+              {
+                "title": "Bar Association",
+                "subtitle": "Member",
+                "image": "/about-badge-bar.webp"
+              },
+              {
+                "title": "Certified",
+                "subtitle": "Legal Expert",
+                "image": "/about-badge-expert.webp"
+              },
+              {
+                "title": "Trusted Law Firm",
+                "subtitle": "Top Rated",
+                "image": "/about-badge-trusted.webp"
+              },
+              {
+                "title": "20+ Years",
+                "subtitle": "Of Excellence",
+                "image": "/about-badge-excellence.webp"
+              }
+            ],
+            "courthouseWatermark": "/about-courthouse.png",
+            "preTitle": "About LexFin Advisors",
+            "headingPart1": "Two Essential Disciplines.",
+            "headingPart2": "One Unified Powerhouse.",
+            "description": "Founded on the premise that corporate law and capital strategy are inextricably linked, LexFin Advisors eliminates the dangerous delays and blind spots that arise when outside law firms and financial consultants operate in silos.",
+            "features": [
+              "Dual-qualified attorneys and certified financial analysts on every deal",
+              "Cross-border tax optimization and multi-jurisdictional compliance",
+              "Direct partner engagement with proactive risk assessment",
+              "Discreet, battle-tested counsel for high-stakes corporate transitions"
+            ],
+            "philosophyTitle": "The LexFin Advisory Philosophy",
+            "philosophyQuote": "In financial law, the difference between an asset and a liability is often a single clause. We structure transactions so that legal certainty amplifies financial return.",
+            "headquarters": "New York & London",
+            "practicingSince": "1996"
+          }
+        }
+      },
+      "Services": {
+        "variants": {
+          "LexFinServices1": {
+            "tagline": {
+              "icon": "Scale",
+              "text": "OUR SERVICES"
+            },
+            "heading": {
+              "line1": "Comprehensive Legal & Financial",
+              "line2Prefix": "Services for",
+              "line2Highlight": "Every Client"
+            },
+            "description": "A trusted range of legal and financial solutions designed to protect your interests, ensure compliance, and support your business growth.",
+            "headerIcon": "Landmark",
+            "headerIconImage": "/services/header-courthouse.webp",
+            "watermarkImage": "/services-justice.webp",
+            "watermarkAlt": "Lady Justice Statue Watermark",
+            "items": [
+              {
+                "icon": "Scale",
+                "iconImage": "/services/corporate-law.webp",
+                "iconTheme": "dark",
+                "title": "Corporate & Business Law",
+                "desc": "Legal support for company formation, contracts, compliance and business disputes."
+              },
+              {
+                "icon": "Tax",
+                "iconImage": "/services/taxation.webp",
+                "iconTheme": "gold",
+                "title": "Taxation & GST Services",
+                "desc": "End-to-end tax planning, GST registration, filing and compliance."
+              },
+              {
+                "icon": "FileSearch",
+                "iconImage": "/services/audit.webp",
+                "iconTheme": "dark",
+                "title": "Audit & Assurance",
+                "desc": "Statutory, internal and management audits for financial transparency."
+              },
+              {
+                "icon": "Gavel",
+                "iconImage": "/services/litigation.webp",
+                "iconTheme": "gold",
+                "title": "Civil & Litigation Services",
+                "desc": "Representation and legal counseling for civil, commercial and corporate disputes."
+              },
+              {
+                "icon": "Building2",
+                "iconImage": "/services/real-estate.webp",
+                "iconTheme": "dark",
+                "title": "Property & Real Estate Law",
+                "desc": "Legal guidance for property transactions, documentation and title verification."
+              },
+              {
+                "icon": "Users",
+                "iconImage": "/services/formation.webp",
+                "iconTheme": "gold",
+                "title": "Company Formation",
+                "desc": "Incorporation, structuring and regulatory compliance for new and existing businesses."
+              },
+              {
+                "icon": "FileSignature",
+                "iconImage": "/services/contract.webp",
+                "iconTheme": "dark",
+                "title": "Contract & Documentation",
+                "desc": "Drafting, review and vetting of legal agreements, contracts and business documents."
+              },
+              {
+                "icon": "TrendingUp",
+                "iconImage": "/services/advisory.webp",
+                "iconTheme": "gold",
+                "title": "Financial Advisory",
+                "desc": "Strategic financial planning, compliance and growth advisory for individuals and businesses."
+              }
+            ]
+          }
+        }
+      },
+      "Team": {
+        "variants": {
+          "LexFinTeam1": {
+            "tagline": {
+              "icon": "Scale",
+              "text": "Our Legal Team"
+            },
+            "heading": {
+              "line1": "The Experts Behind",
+              "line2Prefix": "Your",
+              "line2Highlight": "Legal Solutions"
+            },
+            "intro": {
+              "icon": "Users",
+              "text": "A dedicated team of experienced lawyers and advisors committed to delivering strategic, reliable, and result-oriented legal support."
+            },
+            "items": [
+              {
+                "name": "Adv. Rajiv Mehra",
+                "role": "Managing Partner",
+                "image": "/team/rajiv-mehra.webp",
+                "href": "#contact"
+              },
+              {
+                "name": "CA Neha Sharma",
+                "role": "Tax & Compliance Advisor",
+                "image": "/team/neha-sharma.webp",
+                "href": "#contact"
+              },
+              {
+                "name": "Adv. Aman Verma",
+                "role": "Corporate Law Expert",
+                "image": "/team/aman-verma.webp",
+                "href": "#contact"
+              },
+              {
+                "name": "CA Priya Gupta",
+                "role": "Litigation & Advisory Head",
+                "image": "/team/priya-gupta.webp",
+                "href": "#contact"
+              }
+            ]
+          }
+        }
+      },
+      "Testimonial": {
+        "variants": {
+          "LexFinTestimonial1": {
+            "tagline": {
+              "text": "TESTIMONIALS"
+            },
+            "heading": {
+              "line1": "Hear Directly from",
+              "line2Prefix": "Our",
+              "line2Highlight": "Clients"
+            },
+            "featuredImage": "/testimonials/testimonial-hero.webp",
+            "featuredImageAlt": "Senior Legal Advisor with Client Testimonial",
+            "items": [
+              {
+                "quote": "The team provided exceptional legal guidance and handled my case with utmost professionalism and care.",
+                "client": "Rajat Mehra",
+                "role": "Business Owner",
+                "image": "/testimonials/testimonial-hero.webp",
+                "rating": 5
+              },
+              {
+                "quote": "LexFin Advisors orchestrated our cross-border merger with flawless precision. Having elite legal counsel and financial structuring under one roof saved us months.",
+                "client": "Julian Moreau",
+                "role": "CEO, Vanguard Group",
+                "image": "/testimonials/testimonial-2.webp",
+                "rating": 5
+              },
+              {
+                "quote": "Their tax and capital restructuring strategy generated an immediate 24% operational efficiency for our fund portfolio. A trusted advisory partner.",
+                "client": "Sophia Lin",
+                "role": "Managing Director, Aetheria",
+                "image": "/testimonials/testimonial-3.webp",
+                "rating": 5
+              }
+            ]
+          }
+        }
+      },
+      "CompanyStatistics": {
+        "variants": {
+          "LexFinStats1": {
+            "tagline": {
+              "icon": "Scale",
+              "text": "WHY CHOOSE US"
+            },
+            "heading": {
+              "line1": "Your Trusted Partner for",
+              "line2Prefix": "Legal & Financial",
+              "line2Highlight": "Excellence"
+            },
+            "description": "We combine legal expertise, financial insight, and a client-focused approach to deliver practical, compliant, and growth-driven solutions.",
+            "image": "/why-choose-us/lady-justice-statue.webp",
+            "imageAlt": "Statue of Lady Justice with Scales and Gavel",
+            "values": [
+              {
+                "icon": "ShieldCheck",
+                "title": "Trust"
+              },
+              {
+                "icon": "Users",
+                "title": "Expertise"
+              },
+              {
+                "icon": "Award",
+                "title": "Integrity"
+              },
+              {
+                "icon": "Target",
+                "title": "Results"
+              },
+              {
+                "icon": "Handshake",
+                "title": "Client First"
+              }
+            ],
+            "stats": [
+              {
+                "icon": "Calendar",
+                "value": "25+",
+                "label": "Years of Experience",
+                "title": "Proven Expertise",
+                "description": "Decades of collective experience in legal, taxation and financial advisory services."
+              },
+              {
+                "icon": "Users",
+                "value": "98%",
+                "label": "Client Satisfaction",
+                "title": "Client-Centric Approach",
+                "description": "Personalized, transparent and timely support for every client."
+              },
+              {
+                "icon": "Layers",
+                "value": "50+",
+                "label": "Professionals",
+                "title": "Experienced Team",
+                "description": "A skilled team of legal, CA and financial experts delivering end-to-end solutions."
+              }
+            ]
+          }
+        }
+      },
+      "FAQ": {
+        "variants": {
+          "LexFinFAQ1": {
+            "tagline": {
+              "icon": "Scale",
+              "text": "FAQS"
+            },
+            "heading": {
+              "line1Prefix": "Frequently Asked",
+              "line1Highlight": "Questions"
+            },
+            "description": "Find quick answers to common questions about our legal services, process, and consultations.",
+            "backgroundImage": "/faq/faq-bg.webp",
+            "items": [
+              {
+                "question": "What legal services do you offer?",
+                "answer": "We offer a wide range of legal services, including corporate law, civil litigation, family law, real estate, and legal consultation for individuals and businesses."
+              },
+              {
+                "question": "How can I schedule a consultation?",
+                "answer": "You can schedule a consultation by clicking the 'Contact Us' button, filling out our quick contact form, or calling our direct office line to book a dedicated session with our senior attorneys."
+              },
+              {
+                "question": "Do you provide legal support for businesses?",
+                "answer": "Yes, we specialize in comprehensive business law support, from entity incorporation and regulatory compliance to contract drafting, tax structuring, and commercial dispute resolution."
+              },
+              {
+                "question": "How much do your legal services cost?",
+                "answer": "Our fee structures are transparent and tailored to your specific matter, offering competitive hourly rates, capped milestone billing, and retainer arrangements with no hidden fees."
+              },
+              {
+                "question": "Can you handle cases outside my city or state?",
+                "answer": "Yes, our multi-jurisdictional network of licensed attorneys and partner counsels enables us to represent clients across national and cross-border jurisdictions seamlessly."
+              }
+            ]
+          }
+        }
+      },
+      "Contact": {
+        "variants": {
+          "LexFinContact1": {
+            "tagline": {
+              "icon": "Scale",
+              "text": "CONTACT US"
+            },
+            "heading": {
+              "line1Prefix": "Get in Touch with",
+              "line1Highlight": "Our Legal Experts"
+            },
+            "description": "Have a question or need legal assistance? Reach out to our team and we'll get back to you soon.",
+            "backgroundImage": "/contact/contact.webp",
+            "form": {
+              "namePlaceholder": "Your Name*",
+              "emailPlaceholder": "Your Email*",
+              "phonePlaceholder": "Your Phone*",
+              "servicePlaceholder": "Select Service",
+              "messagePlaceholder": "Your Message*",
+              "submitButtonText": "Send Message",
+              "serviceOptions": [
+                "Corporate & Business Law",
+                "Taxation & GST Services",
+                "Audit & Assurance",
+                "Civil & Litigation Services",
+                "Property & Real Estate Law",
+                "Company Formation",
+                "Contract & Documentation",
+                "Financial Advisory"
+              ]
+            },
+            "preTitle": "Get In Touch",
+            "directLine": "+1 (800) 555-LEXFIN / +1 (212) 555-0198",
+            "email": "counsel@lexfinadvisors.com",
+            "address": "Rockefeller Plaza, 45th Floor, New York, NY 10111",
+            "responseGuarantee": "Under 12 Hours (24/7 for Critical Transactions)",
+            "formTitle": "Request Advisory Session",
+            "formDescription": "Fill in your corporate details below to connect directly with a practice lead.",
+            "submitButtonText": "Send Message",
+            "confidentialityNotice": "All communications are protected under Attorney-Client Privilege."
+          }
+        }
+      },
+      "Footer": {
+        "variants": {
+          "LexFinFooter1": {
+            "logo": "/logo.webp",
+            "brandName": "LexFin Advisors",
+            "brandSubtitle": "LAW & FINANCE",
+            "description": "Specialized corporate law and financial advisory services for institutions, enterprises, and high-net-worth clients worldwide.",
+            "socialLinks": [
+              {
+                "name": "LinkedIn",
+                "href": "https://linkedin.com",
+                "icon": "linkedin"
+              },
+              {
+                "name": "Twitter",
+                "href": "https://twitter.com",
+                "icon": "twitter"
+              },
+              {
+                "name": "Facebook",
+                "href": "https://facebook.com",
+                "icon": "facebook"
+              },
+              {
+                "name": "Instagram",
+                "href": "https://instagram.com",
+                "icon": "instagram"
+              }
+            ],
+            "quickLinksTitle": "Quick Links",
+            "quickLinks": [
+              {
+                "name": "Home",
+                "href": "#home"
+              },
+              {
+                "name": "About",
+                "href": "#about"
+              },
+              {
+                "name": "Service",
+                "href": "#service"
+              },
+              {
+                "name": "Team",
+                "href": "#team"
+              },
+              {
+                "name": "Testimonial",
+                "href": "#testimonial"
+              },
+              {
+                "name": "FAQ",
+                "href": "#faq"
+              },
+              {
+                "name": "Contact Us",
+                "href": "#contact"
+              }
+            ],
+            "backgroundImage": "/footer/footer-bg.webp",
+            "contact": {
+              "phone": "+1 000-000-000",
+              "email": "info@xyz.com",
+              "offices": [
+                {
+                  "city": "New York Office",
+                  "addressLine1": "250 Park Avenue, Suite 1200,",
+                  "addressLine2": "New York, NY 10177, USA"
+                },
+                {
+                  "city": "Chicago Office",
+                  "addressLine1": "500 W Madison St, Suite 200,",
+                  "addressLine2": "Chicago, IL 60661, USA"
+                }
+              ]
+            },
+            "bottomBar": {
+              "copyright": "© 2026 LexFin Advisors. All Rights Reserved. Powered by Lestow"
+            }
+          }
+        }
+      }
+    }
+  }
+}
